@@ -1,0 +1,269 @@
+/**
+ * ============
+ * Typography
+ * ============
+ * Define as much reusable typography here
+ * such as `.text-hero`, which can be `@extend`-ed from other scss files
+ * This way, this file become a master list of typography used throughout the site
+ */
+.checkout {
+  padding-top: 50px;
+}
+table {
+  margin: 0 !important;
+  padding-bottom: 30px;
+}
+.place-order {
+  margin-top: 0 !important;
+  padding-top: 2.617924em;
+}
+tbody,
+tr,
+td {
+  background-color: #f8f9fa !important;
+}
+.col-1,
+.col-2 {
+  max-width: 100% !important;
+  input {
+    height: 36px !important;
+  }
+}
+.form-row label {
+  margin-right: 26px;
+}
+.form-row span {
+  width: 100%;
+}
+.form-row input {
+  font-size: 14px !important;
+}
+.select2-search__field {
+  height: 25px !important;
+}
+.select2-results__option {
+  font-size: 16px !important;
+}
+a,
+button,
+li,
+input {
+  &:focus,
+  &:active {
+    outline: none !important;
+  }
+}
+.login-form-ajax {
+  height: 475px !important;
+  @media (max-width: 992px) {
+    height: 450px !important;
+  }
+}
+.error_message {
+  span {
+    color: red !important;
+  }
+}
+.archive {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  margin-top: 80px;
+}
+ul {
+  list-style: none !important;
+}
+.header-white {
+  background-color: #f8f9fa !important;
+  .button-dark {
+    color: #fff !important;
+  }
+  li,
+  a {
+    color: #0b0b0b !important;
+  }
+}
+.dark-bg {
+  background: #0c0c0c;
+  h2,
+  span {
+    color: #fff !important;
+  }
+}
+input {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  &:hover {
+    text-decoration: none;
+    outline: none;
+  }
+}
+span {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  @media (max-width: 575px) {
+    font-size: 18px;
+  }
+}
+h1 {
+  @media (max-width: 575px) {
+    font-size: 32px !important;
+    line-height: 44px !important;
+  }
+  span {
+    @media (max-width: 575px) {
+      font-size: 32px !important;
+      line-height: 44px !important;
+    }
+  }
+}
+h2 {
+  padding-top: 10px;
+  span {
+    @media (max-width: 575px) {
+      font-size: 28px !important;
+      line-height: 44px !important;
+    }
+  }
+  @media (max-width: 575px) {
+    font-size: 28px !important;
+    line-height: 44px !important;
+  }
+}
+h1,
+h2 {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  letter-spacing: 0.55px;
+  line-height: 64px;
+  span {
+    font-size: 44px;
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif !important;
+    font-weight: 600;
+  }
+}
+.big-btn {
+  color: #fff;
+  width: 100%;
+  max-width: 180px;
+  height: 40px;
+  border-radius: 8px 8px 8px 0;
+  background-color: #323232;
+}
+.btn-green {
+  width: 100%;
+  max-width: 270px;
+  font-weight: normal !important;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #88ca1e;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 18px;
+  transition: 0.4s;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid #88ca1e;
+  position: relative;
+  &:before {
+    border-radius: 15px;
+    transition: 0.4s;
+    position: absolute;
+    content: " ";
+    display: block;
+    left: -8px;
+    bottom: -8px;
+    top: -8px;
+    right: -8px;
+  }
+  &:hover {
+    &:before {
+      border: 2px solid #88ca1e;
+    }
+    box-shadow: 2px 2px 40px rgba(134, 204, 0, 0.75);
+  }
+  &:active,
+  &:focus {
+    border: #88ca1e !important;
+    outline: none;
+    text-decoration: none;
+  }
+}
+.button__border {
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 64px;
+  &:hover {
+    border: 2px solid #88ca1e;
+    box-shadow: 2px 2px 40px rgba(134, 204, 0, 0.75);
+  }
+}
+p {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.button-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 56px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #323232;
+  margin-right: 15px;
+  transition: 0.4s;
+  border: 1px solid #323232;
+  &:hover {
+    border: 1px solid #fff;
+  }
+}
+h4,
+.h4 {
+  color: #000;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+}
+.h4 {
+  line-height: 40px;
+}
+.header-bg {
+  background-color: #202121 !important;
+}
+.big-light-btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 56px;
+  border-radius: 12px;
+  background-color: rgba(50, 50, 50, 0.1);
+  color: #000;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 18px;
+}
+.light-show {
+  opacity: 1 !important;
+}
+.dark-hide {
+  opacity: 0 !important;
+}

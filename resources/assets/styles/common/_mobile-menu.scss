@@ -1,0 +1,119 @@
+.shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+  &.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .mobile-menu {
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      border-top: 1px solid #979797;
+      opacity: 0.5;
+      top: 11%;
+    }
+    padding-top: 100px;
+    overflow: auto !important;
+    width: 37%;
+    height: 100%;
+    background-color: #202121;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 9999;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 700px) {
+      width: 50%;
+    }
+    @media (max-width: 475px) {
+      width: 55%;
+    }
+    @media (max-width: 430px) {
+      width: 68%;
+    }
+    @media (max-width: 350px) {
+      width: 75%;
+    }
+    &.open-mobile {
+      left: 0;
+    }
+    ul {
+      list-style: none !important;
+      margin: 0 !important;
+    }
+    &__search {
+      width: 100%;
+      max-width: 240px;
+      border-radius: 8px;
+      background-color: #323232;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      @media (max-width: 575px) {
+        max-width: 220px;
+      }
+      input {
+        color: #fff;
+        height: 32px;
+        border-radius: 8px;
+        background-color: #323232;
+        padding-left: 5px;
+        padding-right: 40px;
+      }
+      img {
+        position: absolute;
+        left: 78%;
+      }
+    }
+    ul {
+      padding-top: 25px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 240px;
+      @media (max-width: 575px) {
+        max-width: 220px;
+      }
+      li {
+        padding-bottom: 20px;
+      }
+    }
+    a {
+      color: #fff !important;
+      padding-bottom: 20px;
+    }
+    .button-dark {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      background-color: #323232;
+      transition: 0.4s;
+      padding: 10px 17px 9px;
+      max-width: 240px;
+      width: 100%;
+      margin-top: 25px;
+      color: #fff !important;
+      border: 1px solid rgba(134, 204, 0, 0.5);
+      @media (max-width: 575px) {
+        max-width: 220px;
+      }
+    }
+  }
+}

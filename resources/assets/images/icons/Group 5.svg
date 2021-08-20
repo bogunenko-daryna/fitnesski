@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="77px" viewBox="0 0 76 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <filter x="-3.0%" y="-13.0%" width="106.0%" height="126.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.505180027   0 0 0 0 0.495265099   0 0 0 0 0.495265099  0 0 0 0.295208698 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-concept" transform="translate(-236.000000, -448.000000)" fill="#FFFFFF">
+            <g id="search-using-filters" filter="url(#filter-1)" transform="translate(56.000000, 450.000000)">
+                <g id="2" transform="translate(208.000000, 27.000000)">
+                    <g id="Group-5" transform="translate(2.272050, 0.000000)">
+                        <path d="M10.8631926,7.53212418 C11.5313616,7.53212418 12.1553964,7.86579306 12.5264514,8.42146201 L12.5264514,8.42146201 L15.0599838,12.2155228 C15.5537743,12.9549929 15.5000634,13.9316704 14.9281639,14.6125345 L14.9281639,14.6125345 L12.4104167,17.6099903 L11.374,16.7923485 L11.3743014,18.1831936 L3.89164801,18.1831936 L3.891,17.0503485 L3.07114227,17.6099903 L0.503884572,14.7161255 C-0.139147076,13.9912873 -0.170098863,12.909761 0.430426542,12.1493339 L0.430426542,12.1493339 L3.47617381,8.29259632 C3.85546091,7.81231655 4.43376399,7.53212418 5.04575041,7.53212418 L5.04575041,7.53212418 L5.201,7.53134848 L7.14986254,11.3796726 L6.46902627,13.629516 L8.1533479,14.345066 L9.09285564,11.7033647 L8.50570823,11.4709907 L10.248,7.53134848 Z M3.891,15.3663485 L3.891,17.0503485 L4.94872932,16.3304733 L3.891,15.3663485 Z M11.374,15.6963485 L10.7890061,16.3304733 L11.374,16.7923485 L11.374,15.6963485 Z M11.3743014,11.1130359 L11.374,15.6963485 L12.9095596,14.034571 C13.2435538,13.6729589 13.2613743,13.1281499 12.9683046,12.7471602 L12.8885634,12.6555265 L11.3743014,11.1130359 Z M3.89164801,11.1130359 L2.40580764,12.5945201 C2.39456196,12.6057328 2.38358498,12.6172118 2.37288603,12.6289473 C2.00080247,13.03708 2.03002606,13.6695702 2.43815872,14.0416537 L2.43815872,14.0416537 L3.891,15.3663485 L3.89164801,11.1130359 Z M9.079,7.53134848 L7.83574613,10.7085616 L6.433,7.53134848 L9.079,7.53134848 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval" cx="7.72794956" cy="3" r="3"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

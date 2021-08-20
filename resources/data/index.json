@@ -1,0 +1,82 @@
+{
+  "header": {
+    "class-about": "",
+    "class-contact": ""
+  },
+  "grid-header":
+  {
+    "span_1": "— What can you find here?",
+    "h2": "All types of programs to help you be ",
+    "h2_2": "healthy",
+    "span_2": "and fit"
+  },
+  "headroom-class": "transparent-on-init",
+  "page-hero": {
+    "image": "images/bg-posters/fitnesski-main-bg.jpg",
+    "title": "Welcome to FitnessKI, <br> your nexus for\n <span>positive</span> energy",
+    "tabs": true
+  },
+  "slide": [
+    {"image": "images/barbell.png", "label": "Weightlifting"},
+    {"image": "images/sport.png", "label": "Weightlifting"},
+    {"image": "images/ledi.png", "label": "Fitness Centers"},
+    {"image": "images/squats.png", "label": "Crossfit"},
+    {"image": "images/squats.png", "label": "Crossfit"},
+    {"image": "images/girls.png", "label": "Weightlifting"},
+    {"image": "images/girls.png", "label": "Weightlifting"},
+    {"image": "images/barbell.png", "label": "Weightlifting"},
+    {"image": "images/girl.png", "label": "Stretching"},
+    {"image": "images/men.png", "label": "Yoga"},
+    {"image": "images/men.png", "label": "Yoga"},
+    {"image": "images/mars.png", "label": "Weightlifting"},
+    {"image": "images/sea.png", "label": "Weightlifting"},
+    {"image": "images/power.png", "label": "Weightlifting"}
+  ],
+  "blog": {
+    "title": "<b>Explore</b> our blog",
+    "classes": "",
+    "posts": [
+      {"image": "images/post-1.jpg", "label": "Your inspiration"},
+      {"image": "images/post-2.jpg", "label": "Your fashion personality!"},
+      {"image": "images/post-3.jpg", "label": "10 rules for in home-workout"}
+    ]
+  },
+  "card-slider": [
+    {
+      "id": "0",
+      "img-big": "images/card-detal.jpg",
+      "img-mob": "images/girl-mob.png",
+      "img-say": "images/say.svg",
+      "text": "Bold statement may go for several more lines from here. Some may be even these big. Or bigger, much bigger. while its not just lorem ipsum. Bold statement may go for several more lines from here. Some Lorem Ipsum will be enough for now. But we definetly will add some text later.",
+      "h5": "Dave Johnson",
+      "text-bottom": "Yoga for beginers; Fitness with Arthur Li"
+    },
+    {
+      "id": "1",
+      "img-big": "images/power.jpg",
+      "img-mob": "girls.jpg",
+      "img-say": "images/say.svg",
+      "text": "Bold statement may go for several more lines from here. Some may be even these big. Or bigger, much bigger. while its not just lorem ipsum. Bold statement may go for several more lines from here. Some Lorem Ipsum will be enough for now. But we definetly will add some text later.",
+      "h5": "Dave Johnson",
+      "text-bottom": "Yoga for beginers; Fitness with Arthur Li"
+    },
+    {
+      "id": "2",
+      "img-big": "images/sea.jpg",
+      "img-mob": "girls.jpg",
+      "img-say": "images/say.svg",
+      "text": "Bold statement may go for several more lines from here. Some may be even these big. Or bigger, much bigger. while its not just lorem ipsum. Bold statement may go for several more lines from here. Some Lorem Ipsum will be enough for now. But we definetly will add some text later.",
+      "h5": "Dave Johnson",
+      "text-bottom": "Yoga for beginers; Fitness with Arthur Li"
+    },
+    {
+      "id": "3",
+      "img-big": "images/girls.jpg",
+      "img-mob": "images/girls.jpg",
+      "img-say": "images/say.svg",
+      "text": "Bold statement may go for several more lines from here. Some may be even these big. Or bigger, much bigger. while its not just lorem ipsum. Bold statement may go for several more lines from here. Some Lorem Ipsum will be enough for now. But we definetly will add some text later.",
+      "h5": "Dave Johnson",
+      "text-bottom": "Yoga for beginers; Fitness with Arthur Li"
+    }
+  ]
+}

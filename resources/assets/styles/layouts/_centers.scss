@@ -1,0 +1,198 @@
+.centers {
+  &__block-hide {
+    display: none;
+    img {
+      padding-left: 6px;
+    }
+    @media (max-width: 991px) {
+      display: flex;
+      align-items: center;
+      padding-top: 100px;
+      padding-bottom: 30px;
+    }
+    svg {
+      margin-right: 10px;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      color: #171819;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-weight: normal;
+      font-size: 16px;
+    }
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 75px;
+    @media (max-width: 991px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__boxes {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin-top: 55px;
+      @media (max-width: 575px) {
+        align-items: center;
+      }
+    }
+  }
+}
+.big-light-btn {
+  transition: 0.3s;
+  margin-top: 100px;
+  @media (max-width: 575px) {
+    margin-top: 50px;
+  }
+  &:hover {
+    background-color: rgba(50, 50, 50, 0.3);
+  }
+}
+.full-box {
+  width: 100%;
+  max-height: 320px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  margin-bottom: 24px;
+  display: flex;
+  transition: 0.3s;
+  @media (max-width: 1199px) {
+    max-height: 100%;
+  }
+  @media (max-width: 575px) {
+    flex-direction: column !important;
+    max-width: 380px;
+  }
+  &:hover {
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.05);
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 24px 28px 11px 49px;
+    @media (max-width: 575px) {
+      padding: 24px 28px 11px 20px;
+    }
+  }
+  &__img {
+    width: 100%;
+    max-width: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media (max-width: 1199px) {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    @media (max-width: 991px) {
+      background-image: url("images/mars-mob.png") !important;
+      max-width: 100%;
+      border-radius: 10px;
+      height: 487px;
+    }
+    @media (max-width: 575px) {
+      height: 240px;
+    }
+  }
+  &__label {
+    width: 100%;
+    max-width: 180px;
+    height: 40px;
+    border-radius: 8px 8px 8px 0;
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .home-white {
+      transform: translateY(-1px);
+      margin-right: 10px;
+      g,
+      path,
+      circle {
+        fill: #fff !important;
+      }
+    }
+    span {
+      color: #fff;
+      font-size: 16px;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    }
+  }
+  &__rate {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    span {
+      padding-left: 14px;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.17px;
+    }
+  }
+  &__title {
+    max-width: 271px;
+    h4 {
+      margin-bottom: 15px;
+    }
+    p {
+      color: #000;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+  }
+  .text__bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    a {
+      color: #000;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-size: 18px;
+    }
+  }
+  &__text {
+    padding-bottom: 20px;
+    @media (max-width: 1199px) {
+      padding-bottom: 15px;
+    }
+  }
+  &__right {
+    @media (max-width: 1199px) {
+      width: 100%;
+    }
+    @media (max-width: 991px) {
+      padding-top: 20px;
+    }
+    label {
+      color: #000;
+      font-weight: normal;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      img {
+        padding-right: 10px;
+      }
+    }
+    p {
+      padding-top: 10px;
+      padding-left: 15px;
+      color: #000;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      @media (max-width: 991px) {
+        padding-top: 7px;
+      }
+    }
+  }
+}

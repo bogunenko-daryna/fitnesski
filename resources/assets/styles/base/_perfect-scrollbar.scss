@@ -1,0 +1,6 @@
+[data-grid-container] {
+  .ps__rail-y,
+  .ps__rail-x {
+    @extend .d-none;
+  }
+}

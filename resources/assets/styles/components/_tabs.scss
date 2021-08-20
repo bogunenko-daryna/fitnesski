@@ -1,0 +1,272 @@
+.tabs {
+  margin-bottom: 84px;
+  .irs--flat .irs-bar {
+    background: #88ca1e !important;
+    height: 4px;
+  }
+  i {
+    display: none !important;
+  }
+  .irs--flat .irs-to,
+  .irs-from {
+    background: #fff;
+    color: #000;
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transform: translateY(150%);
+    &:before {
+      display: none;
+    }
+  }
+  .irs--flat .irs-handle {
+    background: url("images/oval.svg") !important;
+    background-color: #000;
+    background-repeat: no-repeat;
+    width: 12px !important;
+    height: 12px !important;
+  }
+  .irs--flat .irs-line {
+    height: 4px;
+    border-radius: 8px;
+    background-color: #323232;
+    opacity: 0.1;
+  }
+  li:first-child {
+    border-right: none;
+    @media (max-width: 991px) {
+      border-right: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    a.active {
+      border-radius: 24px 24px 0 0 !important;
+    }
+  }
+  li:last-child {
+    a.active {
+      border-radius: 0 24px 0 0 !important;
+    }
+  }
+  .nav-item {
+    background: rgba(19, 20, 21, 0.4);
+    border-right: 1px solid #767676;
+    transition: 0.4s;
+    height: 68px;
+    @media (min-width: 991px) and (max-width: 1199px) {
+      border-bottom: 1px solid #767676;
+      width: 33%;
+    }
+    &:hover {
+      @media (max-width: 991px) {
+        border: 1px solid #88ca1e;
+        background-color: #323232;
+      }
+    }
+    &:focus {
+      @media (max-width: 991px) {
+        background-color: #323232;
+        border: 1px solid #88ca1e;
+      }
+    }
+    @media (max-width: 991px) {
+      background-color: rgba(50, 50, 50, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
+      height: 40px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    a {
+      color: #fff;
+      font-family: "Neue Haas Display - Mediu", sans-serif;
+      font-weight: normal;
+      font-size: 16px;
+      @media (max-width: 1260px) and (min-width: 991px) {
+        padding: 26px 6px 8px;
+      }
+    }
+    img {
+      padding-right: 5px;
+      color: #fff;
+    }
+  }
+  .nav-link {
+    color: #fff;
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 26px;
+    border-radius: 0 !important;
+    svg {
+      transform: translateY(-2px);
+      margin-right: 5px;
+    }
+    @media (max-width: 991px) {
+      padding-top: 0;
+      padding-bottom: 0;
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: 8px;
+      }
+      &.active {
+        border-color: $primary;
+      }
+    }
+  }
+  .nav {
+    @media (max-width: 991px) {
+      flex-direction: column !important;
+      width: 100%;
+      max-width: 307px;
+      margin-bottom: 17px;
+    }
+  }
+  .tab-content {
+    width: 100%;
+    max-width: 1304px;
+    background: #fff;
+    height: 232px;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 0 110px -39px rgba(0, 0, 0, 1);
+    @media (max-width: 991px) {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      max-width: 100%;
+      border-radius: 24px;
+    }
+  }
+  form {
+    label {
+      color: #000;
+      font-weight: normal;
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-size: 14px;
+    }
+  }
+  .link__last {
+    @include media-breakpoint-up(xl) {
+      border-right: none !important;
+      &:first-child {
+        border-top-left-radius: 24px;
+      }
+      &:last-child {
+        border-top-right-radius: 24px;
+      }
+    }
+    @media (max-width: 991px) {
+      border-right: 1px solid rgba(255, 255, 255, 0.5) !important;
+      &:hover {
+        border-right: 1px solid #88ca1e !important;
+      }
+    }
+  }
+  .active {
+    width: 100%;
+    color: #171819 !important;
+    font-family: "Neue Haas Display - Mediu", sans-serif !important;
+    font-weight: normal !important;
+    height: 68px;
+    background: #fff !important;
+    @media (max-width: 991px) {
+      color: #fff !important;
+      background: none !important;
+      height: auto;
+    }
+    @include media-breakpoint-up(lg) {
+      .online,
+      .bundle {
+        g {
+          fill: #fff !important;
+        }
+        polygon {
+          fill: #000;
+          stroke: #000;
+        }
+        path {
+          fill: #000;
+          stroke: #000;
+        }
+        #Path-20 {
+          fill: #fff !important;
+        }
+      }
+      g,
+      path,
+      circle {
+        fill: $secondary;
+      }
+    }
+  }
+}
+.tab-pane {
+  &__info {
+    padding: 50px 9px 24px;
+    @include media-breakpoint-down(md) {
+      padding: 24px 7px;
+    }
+    &__col {
+      padding: 0 15px;
+      width: 100%;
+      margin-bottom: 20px;
+      @include media-breakpoint-up(md) {
+        max-width: 270px;
+        margin-bottom: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      label {
+        height: 21px;
+        @extend .d-flex, .align-items-center;
+      }
+      img {
+        margin-right: 9px;
+      }
+      .select-wrapper,
+      .tab-pane__info__input {
+        margin-top: 8px;
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+        &:after {
+          content: "";
+          top: 14px;
+          right: 12px;
+          @extend .position-absolute, .triangle-bottom;
+        }
+      }
+      select,
+      .tab-pane__info__input {
+        padding: 9px 24px 7px;
+        background-color: rgba(50, 50, 50, 0.1);
+        appearance: none;
+        @extend .w-100, .border-0, .rounded;
+        &:focus {
+          outline: none;
+        }
+        &:after {
+          content: none;
+        }
+        &::placeholder {
+          color: #000;
+        }
+      }
+    }
+    &__submit {
+      max-width: none;
+      height: 56px;
+      margin-top: 25px;
+      @include media-breakpoint-up(lg) {
+        margin-top: 0;
+        transform: translateY(45px);
+      }
+      @include media-breakpoint-down(sm) {
+        margin-top: 51px;
+      }
+    }
+  }
+}

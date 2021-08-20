@@ -1,0 +1,17 @@
+{{#with page-hero}}
+<div class="page-hero {{classes}} bg-cover-fixed position-relative" style="background-image: url('{{image}}');" >
+    <div class="container h-100">
+        <div class="d-flex flex-column h-100">
+            <div class="page-hero__info">
+                <h1 class="text-white">{{{title}}}</h1>
+                {{#if description}}
+                <p>{{description}}</p>
+                {{/if}}
+            </div>
+            {{#if tabs}}
+            {{> ../components/tabs}}
+            {{/if}}
+        </div>
+    </div>
+</div>
+{{/with}}

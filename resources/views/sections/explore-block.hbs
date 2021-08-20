@@ -1,0 +1,20 @@
+{{#with blog}}
+    <div id="blog" class="explore-block {{classes}}">
+      <div class="container">
+        <div class="explore-block__top">
+          <span>— Looking for tips and inspiration?</span>
+          <h2>{{{title}}}</h2>
+        </div>
+       <div class="row">
+           {{#each posts}}
+             <a href="#" class="col-sm-6 col-lg-4">
+               <span class="explore-block__img">
+                 <img class="lazy" data-src="{{image}}" alt="#">
+               </span>
+               <span class="h4">{{label}}</span>
+             </a>
+           {{/each}}
+       </div>
+      </div>
+    </div>
+{{/with}}

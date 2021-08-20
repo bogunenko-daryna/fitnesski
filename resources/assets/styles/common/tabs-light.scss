@@ -1,0 +1,53 @@
+.tabs__height {
+  margin-bottom: 0 !important;
+  .active {
+    height: 100% !important;
+  }
+  .tab-content {
+    height: 100% !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    max-width: 100% !important;
+  }
+  #pills-center {
+    height: 31px !important;
+  }
+}
+.tabs-light {
+  padding-top: 80px;
+  @media (max-width: 991px) {
+    display: none;
+  }
+  .tabs__info {
+    margin-bottom: 0 !important;
+  }
+  .nav-link {
+    svg {
+      transform: translateY(-2px);
+      margin-right: 5px;
+    }
+  }
+  .nav-item__light {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-right: 1px solid #fff;
+    @media (max-width: 1199px) {
+      border-bottom: 1px solid #fff !important;
+    }
+    .active {
+      border-radius: 0 !important;
+      box-shadow: inset 0 21px 6px rgba(0, 0, 0, 0.05);
+    }
+  }
+  li:first-child {
+    a.active {
+      border-right: 0 !important;
+      border-radius: 0 !important;
+    }
+  }
+  li:last-child {
+    a.active {
+      border-radius: 0 !important;
+    }
+  }
+}

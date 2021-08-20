@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="73px" viewBox="0 0 79 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>laptop_chromebook-24px</title>
+    <defs>
+        <filter x="-3.0%" y="-13.0%" width="106.0%" height="126.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.505180027   0 0 0 0 0.495265099   0 0 0 0 0.495265099  0 0 0 0.295208698 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-concept" transform="translate(-1095.000000, -450.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="search-using-filters" filter="url(#filter-1)" transform="translate(56.000000, 450.000000)">
+                <g id="6" transform="translate(1068.000000, 28.000000)">
+                    <g id="laptop_chromebook-24px" transform="translate(0.000000, 1.000000)">
+                        <path d="M20.125,13.125 L19.25,13.125 L19.25,1.75 C19.25,0.7875 18.4625,0 17.5,0 L3.5,0 C2.5375,0 1.75,0.7875 1.75,1.75 L1.75,13.125 L0.875,13.125 C0.39375,13.125 0,13.51875 0,14 C0,14.48125 0.39375,14.875 0.875,14.875 L20.125,14.875 C20.60625,14.875 21,14.48125 21,14 C21,13.51875 20.60625,13.125 20.125,13.125 Z M11.8125,13.125 L9.1875,13.125 C8.9425,13.125 8.75,12.9325 8.75,12.6875 C8.75,12.4425 8.9425,12.25 9.1875,12.25 L11.8125,12.25 C12.0575,12.25 12.25,12.4425 12.25,12.6875 C12.25,12.9325 12.0575,13.125 11.8125,13.125 Z M17.5,10.5 L3.5,10.5 L3.5,2.625 C3.5,2.14375 3.89375,1.75 4.375,1.75 L16.625,1.75 C17.10625,1.75 17.5,2.14375 17.5,2.625 L17.5,10.5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

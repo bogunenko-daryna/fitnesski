@@ -1,0 +1,39 @@
+.grid-gallery {
+  &__container {
+    padding: 20px 0 60px;
+    h2 {
+      margin-bottom: 88px;
+      @include media-breakpoint-down(xs) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+  &__header {
+    width: 100%;
+    max-width: 565px;
+    @media (max-width: 1400px) {
+      margin-left: -3px;
+    }
+    @media (max-width: 1300px) {
+      margin-top: 50px;
+    }
+    @media (max-width: 575px) {
+      margin-top: 0;
+    }
+  }
+  &__tile:hover {
+    .grid-gallery__label {
+      opacity: 1;
+    }
+  }
+  &__label {
+    padding: 8px 31px;
+    font-size: 18px;
+    bottom: 15px;
+    left: 15px;
+    transition: 0.2s $animation-elastic;
+    @include media-breakpoint-up(lg) {
+      opacity: 0;
+    }
+  }
+}

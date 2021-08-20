@@ -1,0 +1,164 @@
+.cards {
+  padding: 60px 0;
+  .row {
+    @media (max-width: 1118px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__header {
+    @media (max-width: 400px) {
+      max-width: 320px;
+    }
+  }
+  h2 {
+    width: 100%;
+    max-width: 540px;
+    line-height: 64px;
+    padding-bottom: 15px;
+    @media (max-width: 575px) {
+      padding-bottom: 50px;
+    }
+  }
+  p {
+    color: #000;
+    line-height: 24px;
+  }
+  a {
+    color: #000;
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.19px;
+  }
+  .card {
+    width: 100%;
+    display: flex;
+    max-width: 600px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    margin-bottom: 65px;
+    @media (max-width: 1050px) {
+      margin: auto auto 65px auto;
+    }
+    @media (max-width: 575px) {
+      flex-direction: column;
+      max-width: 328px;
+      height: 100%;
+    }
+    &-hide {
+      @media (max-width: 575px) {
+        display: none;
+      }
+    }
+    &-img__hide {
+      display: none;
+      width: 100%;
+      @media (max-width: 575px) {
+        display: block !important;
+      }
+    }
+    &__img {
+      border-radius: 8px;
+      img {
+        border-radius: 8px;
+      }
+      @media (max-width: 575px) {
+        width: 100%;
+      }
+      img {
+        height: 100%;
+        @media (max-width: 575px) {
+          display: none;
+        }
+      }
+    }
+    &__hover,
+    &__hover-3 {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        padding-right: 10px;
+      }
+      p {
+        font-size: 16px;
+        color: #fff;
+        font-weight: normal;
+        font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      }
+      &-3 {
+        max-width: 234px;
+      }
+    }
+    &__bottom {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      position: absolute;
+      top: 82%;
+      left: 70%;
+      @media (max-width: 1118px) {
+        top: 84%;
+        left: 78%;
+      }
+      @media (max-width: 1199px) {
+        top: 85%;
+        left: 79%;
+      }
+      @media (max-width: 991px) {
+        top: 82%;
+        left: 72%;
+      }
+      @media (max-width: 575px) {
+        top: 86%;
+        left: 59%;
+      }
+    }
+    .small-1,
+    .small-2,
+    .small-3 {
+      padding-top: 25px;
+      p {
+        padding-top: 10px;
+      }
+      img {
+        transform: translate(2px, 3px);
+        padding-right: 10px;
+      }
+    }
+    &__top {
+      img {
+        padding-right: 3px;
+      }
+      span {
+        padding-left: 10px;
+      }
+      padding-bottom: 10px;
+    }
+    &__center {
+      p {
+        width: 100%;
+        max-width: 224px;
+      }
+    }
+    &__content {
+      margin-left: 25px;
+      padding-top: 25px;
+      @media (max-width: 1199px) {
+        padding-bottom: 20px;
+      }
+    }
+    h4 {
+      padding-bottom: 23px;
+    }
+    small {
+      font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+      font-weight: normal;
+      color: #000;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}

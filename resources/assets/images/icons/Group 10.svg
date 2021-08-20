@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="79px" viewBox="0 0 78 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 10</title>
+    <defs>
+        <filter x="-3.0%" y="-13.0%" width="106.0%" height="126.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.505180027   0 0 0 0 0.495265099   0 0 0 0 0.495265099  0 0 0 0.295208698 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-concept" transform="translate(-675.000000, -446.000000)">
+            <g id="search-using-filters" filter="url(#filter-1)" transform="translate(56.000000, 450.000000)">
+                <g id="Group-10" transform="translate(649.938064, 26.892838)">
+                    <polygon id="Path-18" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="9.12680655 3.20391038 11.478686 2.3221532 12.0786794 3.83915122e-13 9.65152819 0.977502772"></polygon>
+                    <path d="M4.8740847,0.738875982 L4.75886147,2.04858596 L6.41051281,4.28460904 C5.3862274,3.87661709 4.21922971,3.87661709 2.90951974,4.28460904 C0.944954772,4.89659697 -2.29150032e-13,7.09579478 -2.29150032e-13,9.80138727 C-2.29150032e-13,12.5069798 0.828927058,13.7136466 1.84856833,15.0627442 C2.52832919,15.9621427 3.85901712,16.7842901 5.84063213,17.5291864 L5.84063213,18.3168058 L14.0619361,18.3168058 C15.0320269,18.1356501 15.7806346,17.780043 16.307759,17.2499845 C16.8348834,16.719926 17.1649588,15.9908459 17.2979851,15.0627442 L17.2979851,4.72010837 L16.307759,4.72010837 L16.307759,9.80138727 L14.6675189,10.7433819 C14.7879232,9.35599185 14.6641656,8.21913336 14.2962459,7.33280639 C13.7443665,6.00331592 13.2535662,5.66718145 11.7109876,4.97334517 C10.6826018,4.51078766 9.46625134,4.42637539 8.06193611,4.72010837 L4.8740847,0.738875982 Z" id="Path-19" stroke="#FFFFFF" fill="#FFFFFF" stroke-linejoin="round"></path>
+                    <polygon id="Path-20" fill="#000000" points="7.94901911 12.7895878 6.73600439 12.7895878 6.73600439 16.6924019 14.2679755 16.6924019 15.9759457 15.0968004 15.9759457 12.0720443 14.7348173 12.0720443 14.7348173 14.7930524 13.4376335 14.7930524 13.4376335 12.7895878 12.1043404 12.7895878 12.1043404 13.9794754 10.7434494 13.9794754 10.7434494 12.7895878 9.34189256 12.7895878 9.34189256 14.7930524 7.94901911 14.7930524"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,216 @@
+.card-detail {
+  margin-bottom: 90px;
+  .img-big {
+    width: 130% !important;
+    margin-top: 7px;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  &__hide {
+    @media (max-width: 575px) {
+      display: none;
+    }
+    &__device {
+      display: none;
+      @media (max-width: 575px) {
+        display: block;
+      }
+    }
+  }
+  h2 {
+    width: 100%;
+    max-width: 565px;
+    padding-bottom: 95px;
+    @media (max-width: 575px) {
+      padding-bottom: 40px;
+    }
+  }
+  &__say {
+    @media (max-width: 575px) {
+      position: absolute;
+      left: 10%;
+      top: 38%;
+    }
+    @media (max-width: 400px) {
+      position: absolute;
+      top: 29% !important;
+      left: 10%;
+    }
+  }
+  &__img {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 8px;
+    img {
+      width: 100%;
+    }
+    @media (max-width: 575px) {
+      max-width: 100%;
+      height: 266px;
+    }
+    @media (max-width: 400px) {
+      height: 200px;
+    }
+  }
+  .card__top {
+    padding-top: 10px;
+    img {
+      @media (max-width: 575px) {
+        padding-right: 6px;
+      }
+    }
+    @media (max-width: 575px) {
+      width: 100%;
+      padding-left: 20px;
+      max-width: 311px;
+    }
+  }
+  &__bottom {
+    padding-top: 24px;
+    @media (max-width: 767px) {
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+    @media (max-width: 575px) {
+      padding-top: 12px;
+      padding-bottom: 30px;
+    }
+    h5 {
+      color: #150a2c;
+      font-weight: 600;
+      @media (max-width: 575px) {
+        font-size: 18px;
+      }
+    }
+    p {
+      padding-top: 0 !important;
+      color: #150a2c;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      font-family: "HK Grotesk", sans-serif;
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
+    }
+  }
+  &__text {
+    padding-left: 40px;
+    width: 100%;
+    max-width: 900px;
+    @media (max-width: 767px) {
+      padding-left: 15px;
+    }
+    @media (max-width: 575px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    p {
+      padding-top: 40px;
+      width: 100%;
+      max-width: 334px;
+      color: #150a2c;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+      @media (max-width: 575px) {
+        max-width: 296px;
+        padding-top: 75px;
+      }
+    }
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+    @media (max-width: 1018px) {
+      flex-direction: column;
+    }
+    @media (max-width: 575px) {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__card {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    height: 420px;
+    @media (max-width: 767px) {
+      height: 100%;
+    }
+    @media (max-width: 575px) {
+      flex-direction: column;
+      border-radius: 8px;
+      align-items: center;
+    }
+  }
+  &__right {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.4s;
+    max-width: 426px;
+    @media (max-width: 1118px) {
+      flex-direction: column;
+      margin-top: 30px;
+      width: 100%;
+    }
+    @media (max-width: 575px) {
+      display: none;
+    }
+    &-top {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    &-bottom {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .card-detail__small-img {
+      position: relative;
+      transition: 0.4s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      max-width: 180px;
+      img {
+        border-radius: 8px;
+      }
+      @media (max-width: 1199px) {
+        max-width: 155px;
+      }
+      @media (max-width: 1118px) {
+        max-width: 180px;
+      }
+      &:after {
+        opacity: 0;
+        content: url("images/say-white.svg");
+        position: absolute;
+        transition: 0.4s;
+      }
+      img {
+        transition: 0.4s;
+        width: 100%;
+      }
+      &:hover {
+        cursor: pointer;
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

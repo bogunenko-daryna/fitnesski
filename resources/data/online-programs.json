@@ -1,0 +1,25 @@
+{
+  "tabs-class-active": "active",
+  "active-centers": "",
+  "header": {
+    "class-about": "",
+    "class-contact": ""
+  },
+  "boxes": [
+    {"img": "images/bg-posters/img1.jpg"},
+    {"img": "images/bg-posters/img1.jpg"},
+    {"img": "images/bg-posters/img1.jpg"},
+    {"img": "images/bg-posters/img1.jpg"}
+  ],
+  "headroom-class": "transparent-on-init",
+  "bg-class": "header-white",
+  "blog": {
+    "title": "<b>Explore</b> our blog",
+    "classes": "",
+    "posts": [
+      {"image": "images/post-1.jpg", "label": "Your inspiration"},
+      {"image": "images/post-2.jpg", "label": "Your fashion personality!"},
+      {"image": "images/post-3.jpg", "label": "10 rules for in home-workout"}
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+@import "common/variables";
+@import "bootstrap";
+
+/** Import theme styles */
+@import "reset";
+@import "mixins";
+@import "type";
+@import "common/fonts";
+
+/** Utilities & Helpers */
+@import "utilities/position";
+@import "utilities/images";
+
+/** Import everything from autoload */
+@import "autoload/lazy";
+
+@import "base/perfect-scrollbar";
+@import "base/headroom";
+@import "base/css-icons";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+//@import "~swiper/swiper-bundle.min.css";
+@import "~swiper/swiper";
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+@import "~ion-rangeslider/css/ion.rangeSlider.min.css";
+
+/**
+ * ==========
+ * Layouts
+ * ==========
+ * Layouts define the scaffold of the application
+ * such as header, footer
+ */
+@import "layouts/header";
+@import "layouts/header-white";
+@import "layouts/footer";
+@import "layouts/centers";
+
+/**
+ * ==========
+ * Components
+ * ==========
+ * Components are reusable UI elements on pages, for example:
+ * - generic components can be buttons, navs, gallery slider
+ * - page-specific components such as testimonials
+ */
+@import "sections/cards";
+@import "components/card-detail";
+@import "common/header-contact";
+@import "components/energy";
+@import "components/reliable";
+@import "common/mobile-menu";
+@import "components/tabs";
+@import "components/filter";
+@import "components/modal";
+@import "common/tabs-light";
+@import "components/entry-content";
+/**
+ * ==========
+ * Sections
+ * ==========
+ */
+@import "sections/page-hero";
+@import "sections/grid-gallery";
+@import "sections/featured-posts";
+@import "sections/online-programs";
+@import "sections/policy";

@@ -1,0 +1,50 @@
+
+<div class="card-detail">
+  <div class="container">
+    <span>— What our clients think?</span>
+    <h2>“<span>Easy</span> to use and have a lot options to choose from…”</h2>
+    <div class="card-detail__info">
+      <div class="swiper-container d-flex">
+        <div class="swiper-wrapper">
+          {{#each card-slider}}
+            <div  class="card-detail__card swiper-slide">
+              <div class="card-detail__img ">
+                <img class="lazy fit-cover" data-src="{{img-big}}" alt="#">
+              </div>
+              <div class="card-detail__text">
+                <div class="card-detail__say">
+                  <img class="lazy" data-src="{{img-say}}" alt="#">
+                </div>
+                <p>{{text}}</p>
+                <div class="card__top">
+                    <img src="images/icons/star.svg" alt="#"><img src="images/icons/star.svg" alt="#"><img src="images/icons/star.svg" alt="#"><img src="images/icons/star.svg" alt="#"><img src="images/icons/star.svg" alt="#">
+                </div>
+                <div class="card-detail__bottom">
+                  <h5>{{h5}}</h5>
+                  <p>{{text-bottom}}</p>
+                </div>
+              </div>
+            </div>
+          {{/each}}
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="card-detail__right">
+        <div class="card-detail__right-top">
+          <div data-id="2" class="card-detail__small-img "><img class="lazy" data-src="images/card-1.jpg" alt=""></div>
+          <div data-id="3" class="card-detail__small-img "><img class="lazy" data-src="images/card-2.jpg" alt=""></div>
+        </div>
+        <div class="card-detail__right-bottom">
+          <div data-id="0" class="card-detail__small-img "><img class="lazy img-big" data-src="images/card-3.png" alt=""></div>
+          <div data-id="1" class="card-detail__small-img"><img class="lazy" data-src="images/card-4.jpg" alt=""></div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+

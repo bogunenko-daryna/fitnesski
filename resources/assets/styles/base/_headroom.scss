@@ -1,0 +1,12 @@
+.headroom {
+  transition: 200ms $animation-elastic;
+  background: transparent;
+
+  &--pinned {
+    transform: translateY(0%);
+  }
+
+  &--unpinned {
+    transform: translateY(-100%);
+  }
+}

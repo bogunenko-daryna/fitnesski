@@ -1,0 +1,198 @@
+.entry-content {
+  max-width: 900px;
+  margin: auto;
+  img {
+    width: 100%;
+    max-width: 900px !important;
+  }
+}
+.entry-header {
+  margin: auto !important;
+  max-width: 900px !important;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  span,
+  a {
+    text-transform: uppercase;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    color: #b4b3b3 !important;
+    font-weight: 400 !important;
+  }
+}
+.comments-area {
+  margin: auto;
+  max-width: 1000px !important;
+}
+.entry-taxonomy,
+.post-navigation {
+  margin: auto !important;
+  max-width: 900px;
+}
+.post-template-default {
+  display: flex;
+  flex-direction: column;
+}
+.single_content_wrapper {
+  display: flex;
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+}
+#secondary {
+  margin-top: 132px;
+  @media (max-width: 992px) {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+}
+.widget_search form:before {
+  color: #88ca1e !important;
+}
+.comment-reply-title {
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #000;
+}
+.submit {
+  background: #88ca1e !important;
+  color: #fff !important;
+  transition: 0.3s;
+  &:hover {
+    background: #6a9e17 !important;
+  }
+}
+.comment-form-author input, #respond .comment-form-email input, #respond .comment-form-url input {
+  background: #fff;
+}
+.comment-form-comment {
+  textarea {
+    background: #fff;
+  }
+}
+#author {
+  background: #fff !important;
+}
+.widget {
+  li {
+    padding-left: 0 !important;
+    &:before {
+      display: none !important;
+    }
+    a {
+      border: none !important;
+      outline: none !important;
+      text-decoration: none !important;
+      font-size: 16px !important;
+      font-weight: 400 !important;
+      line-height: 25px;
+      color: #505050 !important;
+      &:before {
+        display: none !important;
+      }
+    }
+  }
+}
+.cat-links {
+  a {
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+  }
+}
+.cat-item {
+  li {
+    padding-left: 0 !important;
+    &:before {
+      display: none !important;
+    }
+  }
+  a {
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 25px;
+    color: #505050 !important;
+    &:before {
+      display: none !important;
+    }
+  }
+}
+.widget,
+.widget-title {
+  border: none !important;
+}
+#fitness-website-and-app {
+  padding-top: 19px !important;
+  .irs {
+    width: 100%;
+    max-width: 240px;
+  }
+  button {
+    max-width: 240px !important;
+  }
+  label {
+    width: 100%;
+  }
+  .tab-pane__info__col:first-child {
+    max-width: 100% !important;
+  }
+  .tab-pane__info__col {
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    .position-relative {
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      .select-checkbox {
+        width: 100%;
+        display: flex;
+        height: 35px;
+        align-items: center;
+        input {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+#bundle-deals {
+  label {
+    width: 100%;
+  }
+  .irs {
+    width: 100%;
+    max-width: 240px;
+  }
+  button {
+    max-width: 240px !important;
+  }
+  .tab-pane__info__col {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    .position-relative {
+      max-width: 347px;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      .select-checkbox {
+        display: flex;
+        height: 35px;
+        align-items: center;
+        input {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

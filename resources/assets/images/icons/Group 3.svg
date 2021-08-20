@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-concept" transform="translate(-79.000000, -477.000000)">
+            <g id="Group-3" transform="translate(80.261101, 478.255713)">
+                <polygon id="Path-6" stroke="#000000" fill="#000000" stroke-linecap="round" stroke-linejoin="round" points="1.18158586 7.07043444 1.18158586 16.7243122 16.3475786 16.7243122 16.3475786 7.07043444 17.5037826 7.39817942 8.73889949 -4.54747351e-13 2.28907119e-13 7.20533083"></polygon>
+                <g id="Group-2" transform="translate(3.548064, 7.744287)" stroke="#FFFFFF">
+                    <polygon id="Path-7" stroke-linecap="round" stroke-linejoin="round" points="1.5134833 0.143627512 3.27297766 0.143627512 3.27297766 5.26504252 1.5134833 5.26504252"></polygon>
+                    <polyline id="Path-8" stroke-linecap="round" stroke-linejoin="round" points="1.11932613 1.26807167 0 1.26807167 0 4.20450453 1.11932613 4.20450453"></polyline>
+                    <g id="Group" transform="translate(8.190836, 3.000000) scale(-1, 1) translate(-8.190836, -3.000000) translate(6.190836, 0.000000)" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon id="Path-7" points="1.5134833 0 3.27297766 0 3.27297766 5.12141501 1.5134833 5.12141501"></polygon>
+                        <polyline id="Path-8" points="1.11932613 1.12444415 -1.11022302e-16 1.12444415 -1.11022302e-16 4.06087702 1.11932613 4.06087702"></polyline>
+                    </g>
+                    <line x1="3.27297766" y1="2.59266059" x2="6.91785824" y2="2.59266059" id="Path-9"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

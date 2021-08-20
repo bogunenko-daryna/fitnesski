@@ -1,0 +1,81 @@
+.header-white {
+  .header__burger {
+    display: flex;
+    align-items: center;
+  }
+  .logo-light-contact,
+  .logo-dark-contact {
+    max-width: 160px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .logo-light-contact {
+    opacity: 0;
+  }
+  .logo-dark-contact {
+    opacity: 1;
+  }
+  .header__burger {
+    svg {
+      path {
+        fill: #000;
+      }
+    }
+  }
+  .burger-dark {
+    opacity: 1;
+  }
+  .burger-light {
+    opacity: 0;
+  }
+  &__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      display: block;
+      position: relative;
+      max-width: 157px;
+      height: 34px;
+    }
+  }
+  @extend .bg-light;
+
+  * {
+    color: #0b0b0b;
+    transition: 0.2s $animation-elastic;
+  }
+  .button-small {
+    border-color: transparent;
+    @extend .bg-primary;
+  }
+  .button-dark {
+    color: #323232 !important;
+    background-color: rgba(50, 50, 50, 0.1);
+  }
+  .header__link li:after {
+    content: url("images/icons/down-dark.svg") !important;
+  }
+  .header__search__input {
+    background-color: rgba(50, 50, 50, 0.1);
+  }
+  .header__search__label {
+    path {
+      fill: $secondary;
+    }
+    &:hover {
+      path {
+        fill: $primary;
+      }
+    }
+  }
+  .header__menu {
+    * {
+      color: #fff;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}

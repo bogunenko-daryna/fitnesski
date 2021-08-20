@@ -1,0 +1,40 @@
+{
+  "page-title": "Sitemap",
+  "sitemap": [
+    {
+      "title": "Home Page",
+      "description": "pending",
+      "url": "/index.html"
+    },
+    {
+      "title": "Contact Page",
+      "description": "pending",
+      "url": "/contact.html"
+    },
+    {
+      "title": "About Page",
+      "description": "pending",
+      "url": "/about.html"
+    },
+    {
+      "title": "Center Page",
+      "description": "pending",
+      "url": "/centers.html"
+    },
+    {
+      "title": "Online Programs Page",
+      "description": "pending",
+      "url": "/online-programs.html"
+    },
+    {
+      "title": "Terms Page",
+      "description": "pending",
+      "url": "/terms.html"
+    },
+    {
+      "title": "Privacy Policy Page",
+      "description": "pending",
+      "url": "/privacy-policy.html"
+    }
+  ]
+}

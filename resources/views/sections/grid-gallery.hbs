@@ -1,0 +1,27 @@
+<div class="grid-gallery__container">
+    <div class="container">
+    <div class="grid-gallery__header">
+      {{#with grid-header}}
+        <span>{{span_1}}</span>
+        <h2>{{h2}}
+          <span>{{span_2}}</span>
+          {{h2_2}}
+        </h2>
+      {{/with}}
+    </div>
+    </div>
+    <div class="container-fluid overflow-hidden position-relative" data-grid-container>
+        <div class="grid-gallery d-flex align-items-start position-relative" data-grid>
+            {{#each slide}}
+                <a href="#"
+                    class="grid-gallery__tile"
+                    data-grid-item>
+                    <div class="position-relative">
+                        <img src="{{image}}" alt="#">
+                        <span class="grid-gallery__label bg-light rounded text-secondary position-absolute">{{label}}</span>
+                    </div>
+                </a>
+            {{/each}}
+        </div>
+    </div>
+</div>

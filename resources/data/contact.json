@@ -1,0 +1,32 @@
+{
+  "headroom-class": "transparent-on-init",
+  "blog": {
+    "title": "<b>Follow</b> our media",
+    "classes": "dark-bg",
+    "posts": [
+      {"image": "images/post-1.jpg", "label": "Be a fan on Twitter"},
+      {"image": "images/post-2.jpg", "label": "Follow us on Instagram"},
+      {"image": "images/post-3.jpg", "label": "Be a fan on Facebook"}
+    ]
+  },
+  "header-2": [
+    {
+      "height": "height: 825px;"
+    }
+  ],
+  "explore": [
+    {
+      "color-text": "#fff",
+      "color": "background: #000",
+      "span": "",
+      "h2": "Follow our media",
+      "h4-1": "Be a fan on Twitter",
+      "h4-2": "Follow us on Instagram",
+      "h4-3": "Be a fan on Facebook"
+    }
+  ],
+  "header": {
+    "class-contact": "current",
+    "class-about": ""
+  }
+}
